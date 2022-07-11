@@ -1,1 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+.searchmatch{
+    font-weight: 700;
+    background-color: greenyellow;
+    color: black;
+}
+
+a:hover{
+    color: white !important;
+}
+
+a:active{
+    color: white;
+}
+
+a:visited{
+    color: yellow;
+}
+
+a:link{
+    color: rgb(31, 203, 209);
+}

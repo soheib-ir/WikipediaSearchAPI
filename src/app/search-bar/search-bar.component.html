@@ -1,0 +1,9 @@
+<div class="formBody">
+    <form class="d-flex form-inline" (submit)="onSubmit($event)">
+        <div class="d-flex form-inline mb-2">
+            <label for="textToSearch" class="form-control-plaintext">Text to search:</label>
+            <input type="text" class="form-control" id="textToSearch" (input)="onChangeText($event)">
+        </div>
+        <button type="submit" class="btn btn-primary mb-2">جستجو</button>
+    </form>
+</div>

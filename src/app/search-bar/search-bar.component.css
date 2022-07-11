@@ -1,0 +1,5 @@
+.formBody{
+    /* width: auto; */
+    display: flex;
+    border: 1px solid black;
+}
